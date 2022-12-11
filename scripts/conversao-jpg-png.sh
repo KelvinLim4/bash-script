@@ -1,3 +1,6 @@
 #!/bin/bash
 
-convert ~/bash-script/imagens-livros/amazon_aws.jpg ~/bash-script/imagens-livros/amazon_aws.png
+CAMINHO_IMAGENS=~/bash-script/imagens-livros
+
+convert $CAMINHO_IMAGENS/$1.jpg $CAMINHO_IMAGENS/$1.png
+convert $CAMINHO_IMAGENS/$2.jpg $CAMINHO_IMAGENS/$2.png
