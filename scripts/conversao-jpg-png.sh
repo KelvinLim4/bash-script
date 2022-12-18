@@ -17,8 +17,8 @@ do
 done
 
 }
-
-converte_imagem
+#ultilizando a função de conversão e caso ocorra um erro, sera salvo no arquivo erros_conversao.txt
+converte_imagem 2>erros_conversao.txt
 
 #verifica se a função converte_imagem funcionou 1 = true & 0 = false
 if [ $? -eq 0 ]
